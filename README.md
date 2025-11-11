@@ -30,24 +30,9 @@ Whether you're building a hosting platform or customizing your existing setup, t
 ### 🦋 Pterodactyl Panel Themes
 > Beautiful, modern, and fully responsive panel themes for Pterodactyl.
 
-| Theme | Description | Preview |
-|:------|:-------------|:--------|
-| **Nebula UI** | A futuristic gradient-based theme with glowing accents. | 🌌 |
-| **AuroraX** | A sleek dark mode theme with smooth animations. | 🌃 |
-| **Frostbyte** | Minimalist white theme with clean visuals. | ❄️ |
-
----
-
 ### 💰 Paymenter Extensions & Themes
 > Boost your hosting billing system with these add-ons and UI packs.
 
-| Extension / Theme | Type | Description |
-|:------------------|:------|:-------------|
-| **Stripe Pro Gateway** | 🔌 Extension | Enhanced Stripe integration with auto-renew & webhook support. |
-| **DarkNova** | 🎨 Theme | Elegant dark UI for Paymenter with glassmorphism design. |
-| **Client Portal+** | 🧾 Extension | Adds dashboard analytics and invoice widgets. |
-
----
 
 ## ⚙️ Installation
 
@@ -56,6 +41,6 @@ Whether you're building a hosting platform or customizing your existing setup, t
 ### 📦 Example (Pterodactyl Theme)
 ```bash
 cd /var/www/pterodactyl
-git clone https://github.com/yourusername/yourrepo.git
-cp -r themes/nebula-ui/* public/
+git clone https://github.com/notanotherzenpai/AIO.git
+cp -r AIO/nebula.blueprint /var/www/pterodactyl
 php artisan cache:clear
