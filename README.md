@@ -40,7 +40,6 @@ Whether you're building a hosting platform or customizing your existing setup, t
 
 ### 📦 Example (Pterodactyl Theme)
 ```bash
-cd /var/www/pterodactyl
 git clone https://github.com/notanotherzenpai/AIO.git
 cp -r AIO/nebula.blueprint /var/www/pterodactyl
 php artisan cache:clear
